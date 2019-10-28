@@ -1,0 +1,59 @@
+.DisplaySimpson {  
+  min-height: 25vh;
+  min-width: 100%;
+}
+
+button {
+  margin: 10px auto;
+  padding: 10px;
+  border: 0px;
+  border-radius:5px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+img {
+  height: 25vh;
+}
+
+.Right {
+  float: right;
+  text-align: right;
+  clear: both;
+}
+
+.Right + p, .Right + p + p {
+  margin: 0 150px 0 0;
+}
+
+.Right + p {
+  margin: 0 150px 0 0;
+  padding-top: 30px;
+  left: 10px;
+}
+.Right + p + p {
+  padding: 30px 0;
+} 
+.Left {
+  float: left;
+  text-align: left;
+  clear: both;
+}
+.Left + p, .Left + p + p {
+  margin: 0 0 0 150px;
+}
+.Left + p {
+  margin: 0 0 0 150px;
+  padding-top: 30px;
+  right: 10px;
+}
+.Left + p + p {
+  padding: 30px 0;
+} 
+
+.character {
+  text-align: right;
+  font-style: italic;
+}
