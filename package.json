@@ -7,6 +7,20 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeraldB69/The-Simpsons-Quotes.git"
+  },
+  "author": "Gerald Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeraldB69/The-Simpsons-Quotes/issues"
+  },
+  "homepage": "https://github.com/GeraldB69/The-Simpsons-Quotes#readme",
+  "dependencies": {
+    "npm": "^6.12.0"
+  },
+  "devDependencies": {}
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
