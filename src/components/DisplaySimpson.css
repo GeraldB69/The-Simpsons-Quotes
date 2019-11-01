@@ -1,10 +1,13 @@
-.DisplaySimpson {  
-  min-height: 25vh;
+.DisplaySimpson {
+  margin: 0 auto;
   min-width: 100%;
+  box-shadow: 1px 1px 12px #ccc;
+  border-radius: 5px;
+  padding: 10px 0;
 }
 
 button {
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 10px;
   border: 0px;
   border-radius:5px;
@@ -15,7 +18,10 @@ button:hover {
 }
 
 img {
-  height: 25vh;
+  margin: 0;
+  padding: 0 10px;
+  max-width: 10em;
+  max-height: 50vh;
 }
 
 .Right {
@@ -25,11 +31,11 @@ img {
 }
 
 .Right + p, .Right + p + p {
-  margin: 0 150px 0 0;
+  margin: 0 150px 0 20px;
 }
 
 .Right + p {
-  margin: 0 150px 0 0;
+  margin: 0 150px 0 20px;
   padding-top: 30px;
   left: 10px;
 }
@@ -42,10 +48,10 @@ img {
   clear: both;
 }
 .Left + p, .Left + p + p {
-  margin: 0 0 0 150px;
+  margin: 0 20px 0 150px;
 }
 .Left + p {
-  margin: 0 0 0 150px;
+  margin: 0 20px 0 150px;
   padding-top: 30px;
   right: 10px;
 }
