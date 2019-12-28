@@ -15,8 +15,8 @@ class App extends Component {
   }
   
   getSimpson = () => {
-    axios.get('https://quests.wilders.dev/simpsons-quotes/quotes') // API Wild
-//    axios.get('https://thesimpsonsquoteapi.glitch.me/quotes') // réelle API
+//    axios.get('https://quests.wilders.dev/simpsons-quotes/quotes') // API Wild
+    axios.get('https://thesimpsonsquoteapi.glitch.me/quotes') // réelle API
       .then(response => response.data)
       .then(data => {
         this.setState({
